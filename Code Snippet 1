@@ -1,0 +1,39 @@
+Does anyone want a tiny html and css code snippet?
+
+HTML
+<h1 class="massive-text">Your Text Goes Here</h1>
+    <div class="animation-container">
+      <img src="Your image URL" alt="Moving Animation">
+
+CSS
+.massive-text {
+    font-size: 72px;
+    text-align: center;
+    color:  rgb(226, 188, 37);
+  }
+  
+  .animation-container {
+    display: flex;
+    justify-content: center;
+    animation: moveAnimation 10s infinite;
+    height: 300px;
+    width: 100vh;
+    border: 5px solid rgb(226, 188, 37);
+  }
+
+  .animation-container :hover{
+    opacity: 0.6;
+    transition: 0.3s ease;
+  }
+  
+  @keyframes moveAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(655px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
