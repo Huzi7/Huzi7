@@ -1,0 +1,15 @@
+What I Learned Today In W3Schools PHP Course!
+
+<?php
+$txt = "Huzi7";
+echo "I am $Huzi7!"
+?>
+
+I obviously learned a lot more like diiferent ways to do the same thing above, but That Takes Way Too Much Time! So the example above is better and easier!
+<?php
+$txt = "huzi7";
+$age = 12
+echo "I am " . $txt . "and I am " . $age . "!";
+?>
+
+There are some more easier ways probably that I don't know off. But I am Still learning so yes Bye Future Huzi7! Peace Out!
