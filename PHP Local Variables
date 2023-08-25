@@ -1,0 +1,14 @@
+How To Use Variable Scopes In PHP!
+
+$x = 10;
+$y = 10;
+function myTest() {
+global $x, $y;
+$y = $x + $y;
+}
+myTest()
+echo $y;
+
+Output: 20
+
+This script uses local variables to output 20!
