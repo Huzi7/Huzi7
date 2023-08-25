@@ -1,0 +1,13 @@
+How to write text in PHP using variables!
+
+<?php
+$txt = "Huzi7";
+echo "I am $txt!"
+?>
+
+Here is a more complicated version than above but This Takes Longer! So the example above is better and easier!
+<?php
+$txt = "Huzi7";
+$age = 12
+echo "I am " . $txt . "and I am " . $age . "!";
+?>
