@@ -1,0 +1,14 @@
+Did You Know that you can use print to print out statements just like Echo in PHP!
+
+<?php
+print "Hi, this is printing";
+echo "Hi, This is doing the same thing as print";
+?>
+You can also use Variables like this example below!
+
+<?php
+$x = "PHP";
+$y = "AWSOME";
+print "I Love $x because it's $y!"
+echo "$x is one of the best programming languages in my opinion because it's $y and easy to use!";
+?>
