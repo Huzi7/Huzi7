@@ -1,0 +1,14 @@
+Different Types Of PHP Data Types!
+
+A string holds a text.  "This is a string variable"
+An int holds a number between -2,147,483,648 and 2,147,483,647 without any decimal places.  "123"
+A bool holds a condition like True Or False!  "True"
+A float holds any number that has a deximal place in it. If you put a whole number on a float variable, then it will generate an error.  "78.983"
+An array holds text like a string variable, but holds much more!  ("Python", "PHP", "HTML");
+
+<?php
+$x = 5678;
+var_dump($x);
+?>
+
+The code above, will show you what data type the variable "x" is! It is a whole numebr, so the output will be  ....  int(5678)
