@@ -1,0 +1,16 @@
+How To Use Different Types Of String Functions In PHP!
+
+The StrLen function counts how many indecies there are in a sentence And Includes Spaces and numbers
+<?php
+echo strlen("HI Boys");    >>>>>>>>>>>>>>>>>>>>>>>>>    Outputs 7
+?>
+
+The Str_Word_Count function counts how many words there are in a sentence. This excludes spaces!
+<?php
+echo str_word_count("Hi Guys");    >>>>>>>>>>>>>>>>>>>>>>>>>    Outputs 2
+?>
+
+The Strrev function reverses the sentence.
+<?php
+echo strrev("Reverse");    >>>>>>>>>>>>>>>>>>>>>>>>>    Outputs esreveR
+?>
