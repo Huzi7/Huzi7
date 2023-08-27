@@ -1,0 +1,26 @@
+How To Use Number Functions In PHP!
+
+<?php
+$x = 55;
+var_dump(is_int($x));
+
+echo "<br>";
+
+$x= 55.55;
+var_dump(is_int($x));
+?>
+
+This will output true if the number is an interger or false if it is not classified as an interger!
+You Can Do The Same Thing, But With Floats!
+
+<?php
+$x = 10.365;
+var_dump(is_float($x));
+?>
+
+If a number is smaller or bigger than an interger or a float then you can call it an infinite!
+Use This Function To Check If A Number is finite, or infinite!
+<?php
+$x = 1.9e411;
+var_dump($x);
+?>
