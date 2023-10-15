@@ -1,0 +1,61 @@
+How To use The While Loop Function In PHP!
+
+1) To start of with, we need our php tags!
+
+<php
+//Our Code Goes Here
+?>
+
+2) Next, we need to type in our variables. Our variable, is going to be called "x";
+
+<php
+$x = 5;
+?>
+
+3) Next, we need to type in our while loop's code! It is kind of like the if or if else code!
+
+<php
+$x = 5;
+ while($x <= 5) {
+  //Output Code Goes Here
+}
+?>
+
+4) Then, we have to type in what we want to output if the condition $x is true!
+
+<php
+$x = 5;
+ while($x <= 5) {
+  echo "Your Number Is: $x <br>";
+}
+?>
+
+5) Finaly, we have to type in one more line of code! this line of code, increases the variable $x by 1;
+
+<php
+$x = 5;
+ while($x <= 5) {
+  echo "Your Number Is: $x <br>";
+  $X++;
+}
+
+
+
+
+Here is the full Code!
+
+<php
+$x = 5;
+ while($x <= 5) {
+  echo "Your Number Is: $x <br>";
+  $X++;
+}
+?>
+
+This, will output:
+
+The Number is: 1
+The Number is: 2
+The Number is: 3
+The Number is: 4
+The Number is: 5
