@@ -1,0 +1,133 @@
+How To use For Loops In PHP!
+
+<?php
+ for($x = 0; $x = 10; $x++) {
+  echo "The Number Is: $x <br>";
+}
+?>
+
+Output:
+The number is: 0
+The number is: 1
+The number is: 2
+The number is: 3
+The number is: 4
+The number is: 5
+The number is: 6
+The number is: 7
+The number is: 8
+The number is: 9
+The number is: 10
+
+You can alter/change this code to make the output go up to 1,000 and go up by 10 instead of one.
+
+<?php  
+ for($x = 0; $x <= 1000; $x+=10) {
+	echo "The Number Is: $x <br>";
+    }
+?>  
+
+Output:
+The Number Is: 0
+The Number Is: 10
+The Number Is: 20
+The Number Is: 30
+The Number Is: 40
+The Number Is: 50
+The Number Is: 60
+The Number Is: 70
+The Number Is: 80
+The Number Is: 90
+The Number Is: 100
+The Number Is: 110
+The Number Is: 120
+The Number Is: 130
+The Number Is: 140
+The Number Is: 150
+The Number Is: 160
+The Number Is: 170
+The Number Is: 180
+The Number Is: 190
+The Number Is: 200
+The Number Is: 210
+The Number Is: 220
+The Number Is: 230
+The Number Is: 240
+The Number Is: 250
+The Number Is: 260
+The Number Is: 270
+The Number Is: 280
+The Number Is: 290
+The Number Is: 300
+The Number Is: 310
+The Number Is: 320
+The Number Is: 330
+The Number Is: 340
+The Number Is: 350
+The Number Is: 360
+The Number Is: 370
+The Number Is: 380
+The Number Is: 390
+The Number Is: 400
+The Number Is: 410
+The Number Is: 420
+The Number Is: 430
+The Number Is: 440
+The Number Is: 450
+The Number Is: 460
+The Number Is: 470
+The Number Is: 480
+The Number Is: 490
+The Number Is: 500
+The Number Is: 510
+The Number Is: 520
+The Number Is: 530
+The Number Is: 540
+The Number Is: 550
+The Number Is: 560
+The Number Is: 570
+The Number Is: 580
+The Number Is: 590
+The Number Is: 600
+The Number Is: 610
+The Number Is: 620
+The Number Is: 630
+The Number Is: 640
+The Number Is: 650
+The Number Is: 660
+The Number Is: 670
+The Number Is: 680
+The Number Is: 690
+The Number Is: 700
+The Number Is: 710
+The Number Is: 720
+The Number Is: 730
+The Number Is: 740
+The Number Is: 750
+The Number Is: 760
+The Number Is: 770
+The Number Is: 780
+The Number Is: 790
+The Number Is: 800
+The Number Is: 810
+The Number Is: 820
+The Number Is: 830
+The Number Is: 840
+The Number Is: 850
+The Number Is: 860
+The Number Is: 870
+The Number Is: 880
+The Number Is: 890
+The Number Is: 900
+The Number Is: 910
+The Number Is: 920
+The Number Is: 930
+The Number Is: 940
+The Number Is: 950
+The Number Is: 960
+The Number Is: 970
+The Number Is: 980
+The Number Is: 990
+The Number Is: 1000
+
+This can be used in PHP/C#. However, in C# the code is slightly different! 
