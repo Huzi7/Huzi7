@@ -1,0 +1,23 @@
+This Is my First Ever C++ Proper Program. My Other Programmes were just Hello Worlds!  This Calculator only does Addition sums.
+
+It will ask you for number 1 and number 2, then it will add them together and output the anwser.
+
+Here is my code.
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num1, num2;
+    int sum;
+    cout << "Enter Number 1: ";
+    cin >> num1;
+    cout << "Enter Number 2 ";
+    cin >> num2;
+    sum = num1 + num2;
+    cout << sum;
+    return 0;
+}
