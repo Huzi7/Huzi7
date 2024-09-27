@@ -1,4 +1,4 @@
-- 👋 Hi, My name is Huzi.
+- 👋 Hi, My Nickname is Huzi.
 - 👀 I’m interested in becoming a programer.
 - 🌱 I’m currently learning HTML, CSS, Javascript, C# and Python  And PHP
 - 💞️ I’m looking to collaborate on front / back end web development
