@@ -1,0 +1,15 @@
+#include <iostream>>
+
+int main() {
+    double x = 10;
+    double y = 5;
+    double z = (x + 10) / (3 * y);
+    std::cout << z;
+    return 0;
+}
+
+
+
+output should be 1.3333333 reccuring!
+
+Following a tutorial, and they gave me this excersise to do. They said I would know if I'm correct becuase of the anwser being 1.3 recurring.
