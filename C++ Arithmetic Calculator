@@ -1,0 +1,39 @@
+Arithmetic Calculator made in C++ in 30 minutes as a complete beginner!
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    cout << "+  or  -  or  *  or  /" << endl;
+    cout << "Value 1: " << endl;
+    cout << "Value 2: " << endl;
+
+    string operation;
+    double value1;
+    double value2;
+
+    cin >> operation;
+    cin >> value1;
+    cin >> value2;
+
+    if (operation == "+") {
+        cout << value1 + value2 << endl;
+    }
+
+    if (operation == "-") {
+        cout << value1 - value2 << endl;
+    }
+
+    if (operation == "*") {
+        cout << value1 * value2 << endl;
+    }
+
+    if (operation == "/") {
+        cout << value1 / value2 << endl;
+    }
+
+    return 0;
+}
