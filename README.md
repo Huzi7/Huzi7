@@ -4,4 +4,4 @@
 - 💞️ I’m looking to collaborate on front / back end web development
 - 📫 How to reach me Email huzi786@yahoo.com
 
-I am a programmer, who loves all things linked with Technology! I am intrested in becoming a game developer and even a software developer, to some extent!
+I am a programmer, who loves all things linked with Technology! I am intrested in becoming a game developer and a software developer.
